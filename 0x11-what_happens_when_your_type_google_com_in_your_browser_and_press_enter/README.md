@@ -1,0 +1,3 @@
+This task requires me to answer a common interview question that is still used to assess the general knowledge of software engineering candidates.
+The question is about what happens when someone types a specific URL in their browser. However, the interviewer may ask to focus on a specific area of the workflow depending on the position. For instance, for a front-end position, the interviewer may want to know more about how the DOM renders, and for an SRE position, they may be interested in learning about the load-balancing mechanism.
+It is essential to ask the interviewer which area they want to be covered before answering the question.

@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# script that setup a ufw firewall and set some rules on my web-01 server.
+
+# act as super user.
+sudo su
+
+# update server.
+apt-get update
+
+# install ufw if not installed.
+apt-get install ufw
+
+# enable ufw.
+ufw enable
+
+# Configure ufw so that it blocks all incoming traffic, except the following TCP ports.
+ufw default deny incoming
+ufw allow 22/tcp
+sudo ufw allow 443/tcp
+sudo ufw allow 80/tcp
+
+# enable ufw.
+sudo ufw enable
+
+# check the ufw status.
+sudo ufw status
